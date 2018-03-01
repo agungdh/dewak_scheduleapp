@@ -1,0 +1,145 @@
+body{
+ 
+color:#444444;
+ 
+font-family:MV Boli;
+ 
+}
+ 
+h2{
+ 
+text-shadow: 2px 2px 5px #000;
+ 
+font-size:30px;
+ 
+font-family:Tekton Pro;
+ 
+color:black;
+ 
+}
+ 
+.tbl_login{
+ 
+/* ukuran dan posisi */
+ 
+padding: 60px;
+ 
+float:center;
+ 
+box-shadow:
+ 
+0 0 1px rgba(0,0,0,0.3),
+ 
+0 3px 20px rgba(0,0,0,0.3),
+ 
+inset 0 1px rgba(255,255,255,1),
+ 
+inset 0 -3px 2px rgba(0,0,0,0.25);
+ 
+background: linear-gradient(#eeefef, #ffffff 10%);
+ 
+}
+ 
+/*style inputan*/
+ 
+input[type=text],
+ 
+input[type=password]{
+ 
+font-family: 'Lato',calibri,Arial,sans-serif;
+ 
+font-size: 13px;
+ 
+font-weight: 400;
+ 
+text-shadow: 0px rgba(255,255,255,0.8);
+ 
+padding: 10px 10px 9px 10px;
+ 
+border: 1px solid #999999;
+ 
+box-shadow: inset 0 0 5px rgba(0,0,0,0.1),
+ 
+inset 0 3px 2px rgba(0,0,0,0.1);
+ 
+border-radius: 5px; /*digunakan untuk membulatkan siku inputan*/
+ 
+color: #777;
+ 
+}
+ 
+input[type=text]:focus,
+ 
+input[type=password]:focus{
+ 
+border-color: #42a2bc;
+ 
+outline: none;
+ 
+-webkit-box-shadow: 0px 0px 2px #42a2bc;
+ 
+-moz-box-shadow: 0px 0px 2px #42a2bc;
+ 
+box-shadow: 0px 0px 5px #42a2bc;
+ 
+}
+ 
+/*style button*/
+ 
+input[type=submit]{
+ 
+/* position */
+ 
+padding: 5px 10px;
+ 
+/* gaya */
+ 
+border: 1px solid #0273dd;
+ 
+border: 1px solid rgba(0,0,0,0.4);
+ 
+box-shadow:
+ 
+inset 0 1px 0 rgba(255,255,255,0.3),
+ 
+inset 0 10px 10px rgba(255,255,255,0.1);
+ 
+border-radius: 3px;
+ 
+background: #38a6f0;
+ 
+cursor:pointer;
+ 
+/* ukuran tulisan */
+ 
+font-family:MV Boli;
+ 
+color: white;
+ 
+font-weight: 700;
+ 
+font-size: 12px;
+ 
+text-shadow: 0 -1px 0 rgba(0,0,0,0.8);
+ 
+}
+ 
+input[type=submit]:hover{
+ 
+box-shadow: inset 0 1px 0 rgba(255,255,255,0.6);
+ 
+background: #2a92d8;
+ 
+}
+ 
+input[type=submit]:active{
+ 
+background: #287db5;
+ 
+box-shadow: inset 0 0 3px rgba(0,0,0,0.6);
+ 
+border-color: #000;
+ 
+border-color: rgba(0,0,0,0.9);
+ 
+}
