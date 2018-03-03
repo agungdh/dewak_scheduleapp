@@ -37,4 +37,14 @@ function ambil_data() {
 		}
 	);
 }
+
+setInterval(function(){
+    ambil_data() 
+}, 60000);
+
+$(document).ready(
+	function() {
+		ambil_data();
+	}
+);
 </script>
