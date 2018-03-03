@@ -40,7 +40,7 @@ function ambil_data() {
 
 setInterval(function(){
     ambil_data() 
-}, 60000);
+}, 10000);
 
 $(document).ready(
 	function() {
